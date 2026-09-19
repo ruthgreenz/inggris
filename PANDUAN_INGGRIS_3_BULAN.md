@@ -6,6 +6,39 @@
 
 ---
 
+## 0. Bahan inti: kursus Data Analytics — DeepLearning.AI
+
+Panduan ini direvisi supaya satu bahan mengerjakan dua tujuan sekaligus: **belajar Inggris + belajar data analytics.** Bahan intinya sekarang kursus yang sudah kamu punya aksesnya (PRO, akun `putro1@std.unissula.ac.id`):
+
+**Data Analytics Professional Certificate — DeepLearning.AI** (instruktur Sean Barnes, Netflix). Level *Beginner*, ~147 jam, **367 video, 59 contoh kode, 46 graded assignment.** Lima kursus:
+
+| # | Kursus | Isi inti | Peran di panduan |
+|---|---|---|---|
+| 1 | **Data Analytics Foundations** | peran analis, spreadsheet, visualisasi, lifecycle, kerja dengan stakeholder, LLM untuk analitik | Bahan transkripsi bulan 1 (kalimat pendek, tempo pelan) |
+| 2 | **Applied Statistics for Data Analytics** | sampling, central tendency, korelasi, probabilitas, confidence interval, hypothesis testing | Bahan statistik + jargon angka |
+| 3 | **Python for Data Analytics** | tipe & fungsi, control flow, struktur data, matplotlib/Seaborn, regresi, time series | Bahan reading (kode) + istilah teknis |
+| 4 | **Data I/O and Preprocessing with Python and SQL** | web scraping, API, database, SQL, joins, validasi | Reading dokumentasi + SQL/data-quality vocab |
+| 5 | **Data Storytelling** | report, Tableau (chart, dashboard, story), **The Job Search** (CV, portfolio, interview) | Bahan speaking, laporan, dan persiapan kerja bulan 3 |
+
+**Kenapa kursus ini cocok untuk level-mu sekarang:**
+
+- **Level Beginner + bahasa instruksional yang jelas** — cocok untuk listening A2 (34). Video kursus diucapkan lebih pelan dan lebih tertata daripada talk konferensi native. Ini pintu masuk sebelum bahan native di bulan 3.
+- **Ada transkrip/caption di tiap video** — syarat mutlak metode transkripsi (bagian 5). Nyalakan caption Inggris, jangan Indonesia.
+- **Reading 47 (B1) sudah cukup** untuk membaca lecture notes, contoh kode, dan graded lab. Kursus jadi latihan reading yang sekaligus menambah skill kerja.
+- **Modul 5.4 "The Job Search"** (searching, networking, resumes & portfolios, interviews) langsung menopang bagian 12 panduan ini.
+
+**Aturan pemakaian sesuai level (jangan dilanggar):**
+
+1. **Bulan 1** — hanya Kursus 1 (Foundations). Video pendek, tempo pelan. Transkripsi 30–45 detik.
+2. **Bulan 2** — Kursus 2–3. Reading lecture notes + lab jadi bahan reading; video jadi bahan transkripsi 60 detik.
+3. **Bulan 3** — Kursus 4–5 + baru masuk bahan native (talk konferensi) setelah telinga terlatih.
+4. **Caption Inggris untuk transkripsi, bukan alat contek.** Tetap tulis dulu tanpa lihat caption (bagian 5.3), baru cocokkan.
+5. **Graded lab/quiz dikerjakan dalam Inggris** — jangan diterjemahkan. Itu latihan reading instruksi teknis yang persis dipakai di kerja nyata.
+
+> **Catatan soal skor EF SET:** file `hasilEFSET.html` yang tersimpan adalah halaman umum EF SET, bukan lembar hasil pribadi (tidak memuat skor per skill). Titik awal di panduan ini tetap memakai angka yang sudah kamu laporkan: **overall 41, Reading 47 (B1), Listening 34 (A2).** Kalau kamu punya sertifikat/hasil resmi dengan angka berbeda, kirim, dan angka di bawah akan disesuaikan.
+
+---
+
 ## 1. Baca ini dulu: target yang jujur
 
 ### Titik awal
@@ -43,6 +76,7 @@ Ditulis supaya kamu tidak merasa gagal padahal on track:
 - Menulis laporan temuan data dalam Inggris tanpa Google Translate.
 - Demo dashboard ke klien asing 5–10 menit.
 - CV, LinkedIn, dan portfolio berbahasa Inggris yang layak dikirim.
+- Kemajuan nyata di **Data Analytics Professional Certificate (DeepLearning.AI)** — Kursus 1 selesai di bulan 1, materi kursus jadi bahan Inggris sepanjang program. Satu upaya, dua sertifikasi arah (Inggris naik + skill data terverifikasi).
 
 Modalmu 15 tahun pengalaman BI. Inggris B2 + pengalaman 15 tahun lebih mudah dijual daripada Inggris C1 + pengalaman 2 tahun. Kamu tidak perlu sempurna, kamu perlu cukup.
 
@@ -53,7 +87,7 @@ Lima aturan. Kalau semua saran lain di dokumen ini kamu lupakan, jalankan lima i
 
 1. **Transkripsi tiap hari, walau 5 menit.** Ini satu-satunya obat listening 34. Tidak ada penggantinya.
 2. **Streak di atas volume.** Hari kacau (anak sakit, lembur, mudik): kerjakan versi minimal 5 menit, jangan skip total. Skip 3 hari berturut = review Anki menumpuk = berhenti selamanya. Ini pola gagal paling umum, bukan kurang motivasi.
-3. **Semua bahan harus berguna dua kali.** Baca dokumentasi Tableau, bukan artikel belajar Inggris. Transkripsi talk soal data, bukan podcast acak. Waktumu terlalu mahal untuk bahan sekali pakai.
+3. **Semua bahan harus berguna dua kali.** Bahan intinya kursus **Data Analytics — DeepLearning.AI** (bagian 0): transkripsi videonya, baca lecture notes-nya, kerjakan lab-nya. Bukan artikel belajar Inggris, bukan podcast acak. Satu jam yang sama menaikkan Inggris *dan* skill kerja. Waktumu terlalu mahal untuk bahan sekali pakai.
 4. **Tulis dan ucapkan sebelum siap.** Menunggu sampai merasa layak = tidak pernah mulai. Kesalahan adalah bahan bakar deck `My Mistakes`.
 5. **Jangan naikkan beban sebelum 4 minggu konsisten.** Menambah target saat belum stabil adalah cara tercepat untuk berhenti.
 
@@ -243,12 +277,17 @@ Pakai **Yes/No, bukan Measurable**. Aturan program ini streak di atas volume; ta
 
 **File `/Users/bppk/Documents/English/tracking.md`** untuk 4 hal yang Loop tidak bisa simpan: skor EF SET, **log jenis kesalahan transkripsi (a)/(b)/(c)**, jumlah kartu, checklist deliverable. Disentuh 1x/minggu (~2 menit) dan 1x/bulan. Akhir bulan: export CSV dari Loop, catat rasio harinya di file.
 
-### Langkah 6 — Siapkan bahan transkripsi
+### Langkah 6 — Siapkan bahan transkripsi (dari kursus DeepLearning.AI)
 
-Bookmark: https://www.bbc.co.uk/learningenglish/english/features/6-minute-english
-Download 3 episode + transkrip ke HP, supaya slot C dan slot motor tidak batal karena sinyal jelek.
+Login https://learn.deeplearning.ai/ (akun PRO-mu), buka **Kursus 1: Data Analytics Foundations → Modul 1**. Bahan transkripsi bulan 1 diambil dari sini, bukan dari podcast acak.
 
-**Durasi transkripsi = 30–60 DETIK, bukan menit.** Satu episode 6 menit = bahan ~4 minggu. Tiga episode = cukup untuk 3 bulan penuh. Tidak perlu download lagi.
+**Siapkan offline supaya slot C dan slot motor tidak batal karena sinyal jelek:**
+
+1. Pilih 2–3 video pendek Modul 1 (mis. `What is data analytics?`, `What is data?`, `The data analytics role in context`).
+2. Nyalakan **caption Inggris**, salin transkripnya ke satu file/PDF di HP. Ini pengganti "transcript PDF" di seluruh bagian 5.
+3. Kalau platform mengizinkan unduh video/audio, simpan ke HP. Kalau tidak, rekam audio slot C dari perangkat saat online lalu putar offline; atau kerjakan slot C saat ada wifi kantor.
+
+**Durasi transkripsi = 30–60 DETIK, bukan menit.** Satu video 4–6 menit = bahan ~4 minggu. Dua–tiga video = cukup untuk sebulan. Habis Modul 1, lanjut Modul 2, dst. — jadi bahan tidak pernah habis dan selalu naik level bareng skill kerjamu.
 
 **Jangan potong file audio.** Pakai A-B loop: **Audipo** (Android — A-B repeat, kontrol kecepatan, bookmark) atau VLC. Set loop `0:00–0:30`, biarkan berulang.
 
@@ -266,7 +305,7 @@ Pola Minggu 1, konkret:
 
 Hari 7 adalah buktinya: potongan yang hari 1 terasa mustahil akan terdengar jelas. Ulangi pola ini sampai episode habis.
 
-Catatan bahan: bagian penyiar menjelaskan kosakata diucapkan lambat — terlalu mudah. Yang melatih telinga adalah dialog bolak-balik antar penyiar. Mulai 0:00 dulu (sapaan formulaik, bagus untuk kepercayaan diri di listening A2), lalu masuk ke tengah episode.
+Catatan bahan: bagian instruktur mengeja definisi diucapkan pelan — bagus untuk pemanasan A2. Yang paling melatih telinga adalah bagian penjelasan mengalir dan contoh kasus. Mulai dari kalimat pembuka video (formulaik, bagus untuk kepercayaan diri di listening A2), lalu masuk ke bagian penjelasan konsep.
 
 ### Checklist Minggu 0
 
@@ -277,7 +316,7 @@ Catatan bahan: bagian penyiar menjelaskan kosakata diucapkan lambat — terlalu 
 - [ ] Loop Habit Tracker terpasang, 2 habit dibuat (`Anki review`, `Transkripsi`)
 - [ ] `tracking.md` ada
 - [ ] Audipo (atau VLC) terpasang untuk A-B loop
-- [ ] 3 episode 6 Minute English + transkrip ada di HP
+- [ ] 2–3 video Kursus 1 Modul 1 (DeepLearning.AI) + transkrip caption ada di HP
 
 ---
 ## 5. Metode transkripsi — inti program ini + aturan kartu
@@ -302,7 +341,7 @@ Ini sumber kebingungan paling besar, jadi dipisah eksplisit:
 
 | Fase | Kapan | Di mana | Butuh apa | Ada file? |
 |---|---|---|---|---|
-| **A. Transkripsi** | Slot C, istirahat kantor, 15 menit | Meja kantor, ada mata+tangan | Audipo A-B loop + notes HP/kertas + transcript PDF | **TIDAK.** Tidak ada ffmpeg. Episode utuh saja. |
+| **A. Transkripsi** | Slot C, istirahat kantor, 15 menit | Meja kantor, ada mata+tangan | Audipo A-B loop + notes HP/kertas + transkrip caption video kursus | **TIDAK.** Tidak ada ffmpeg. Video/audio utuh saja. |
 | **B. Bikin kartu** | Minggu malam, 5 menit, batch | Mac, di rumah | ffmpeg + Anki desktop | Ya, potongan 3–8 detik, maksimal 3 file. |
 
 Fase A tiap hari kerja. Fase B seminggu sekali. Jangan gabung.
@@ -329,16 +368,16 @@ Jenis (b) akan mendominasi. Itu konfirmasi diagnosis: masalah decoding, bukan ko
 
 #### Contoh 1 sesi 30 detik — step-by-step nyata
 
-Episode `climate_change.mp3`, materi mulai detik 14.
+Video Kursus 1 Modul 1 `The data analytics role in context`, materi mulai detik 14.
 
 1. Audipo A-B `0:14–0:44`. Hasil tulisanmu:
-   `...change affecting stream weather with a really important...`
-2. Transcript asli:
-   `...change affecting extreme weather with a really important...`
+   `...the analyst turns raw data into a sites for the business...`
+2. Transkrip (caption Inggris) asli:
+   `...the analyst turns raw data into insights for the business...`
 3. Bandingkan:
-   - `extreme` (kamu tulis `stream`) → **(b)**, tahu kata `extreme`, tidak dengar. Catat `14`.
-   - `a really important` → benar, lewati. Tidak jadi apa pun.
-4. Putar detik 14 **10×**. Sekarang terdengar: elision /t/.
+   - `insights` (kamu tulis `a sites`) → **(b)**, tahu kata `insights`, tidak dengar batas katanya. Catat `14`.
+   - `for the business` → `for` terdengar /fə/ (weak form). Benar tapi nyaris hilang — kalau tadi salah, itu **(c)**.
+4. Putar detik 14 **10×**. Sekarang terdengar: `insights` menyatu, bukan dua kata.
 5. Selesai. Jangan bikin kartu. Catat angka `b=1` untuk minggu ini di `tracking.md` akhir minggu.
 
 ---
@@ -365,9 +404,9 @@ Hitung tiap akhir minggu: `Minggu 1 | 30s | a=2 | b=7 | c=3 | kartu=2 | 6 Min En
 | kata umum, **tidak ada** di 4000 | `Work Mining` | 1 note = 1 lubang `{{c1::}}` |
 | istilah data/BI | `BI Jargon` | 1 note = 1 lubang |
 
-**`Work Mining` = kata dari bahan asli apa pun** — dokumen kantor, email, BBC, docs Tableau. Bukan hanya dokumen kantor.
+**`Work Mining` = kata dari bahan asli apa pun** — dokumen kantor, email, lecture notes/lab kursus, docs Tableau. Bukan hanya dokumen kantor.
 
-**Kata (a) dari BBC hampir selalu sudah ada di deck 4000** (3871 kata umum/akademik). Jadi routing paling sering adalah `Set Due Date 0`, bukan bikin kartu baru.
+**Kata (a) dari video kursus hampir selalu sudah ada di deck 4000** (3871 kata umum/akademik). Jadi routing paling sering adalah `Set Due Date 0`, bukan bikin kartu baru. Istilah data khusus → `BI Jargon`.
 
 ---
 
@@ -443,9 +482,9 @@ Let me {{c1::get back to}} you on that.
 
 Anki mengabaikan kurung tunggal. Kartu muncul tanpa lubang — tidak menguji apa pun. Cloze wajib kurung ganda: `{{c1::extreme}}`.
 
-#### Transcript BBC jadi kartu
+#### Transkrip video kursus jadi kartu
 
-Jangan mengubah seluruh transcript BBC jadi kartu. `My Mistakes` = satu kesalahan nyata = satu note = satu kartu. Transcript BBC untuk latihan tulis di kertas. Anki hanya untuk sisa yang tidak klik setelah 10× putar.
+Jangan mengubah seluruh transkrip video jadi kartu. `My Mistakes` = satu kesalahan nyata = satu note = satu kartu. Transkrip kursus untuk latihan tulis di kertas. Anki hanya untuk sisa yang tidak klik setelah 10× putar.
 
 **Kalau deck `My Mistakes` terlanjur penuh kartu berlapis:**
 
@@ -555,7 +594,7 @@ AKHIR MINGGU (5m, baru ada ffmpeg + Anki):
 YANG DILARANG:
 - c2, c3... dalam 1 note
 - {} satu kurung
-- transcript BBC seutuhnya jadi kartu
+- transkrip video kursus seutuhnya jadi kartu
 - >3 kartu/hari
 - TTS untuk kartu (b)
 ```
@@ -568,12 +607,14 @@ YANG DILARANG:
 - Satu audio dipakai 2–3 hari. Pengulangan, bukan variasi.
 - Jangan buka transcript di tengah jalan. Rasa frustrasi bagian dari mekanismenya.
 
-| Minggu | Bahan | Kecepatan |
+| Minggu | Bahan (kursus DeepLearning.AI kecuali disebut lain) | Kecepatan |
 |---|---|---|
-| 1–4 | BBC 6 Minute English — https://www.bbc.co.uk/learningenglish/english/features/6-minute-english | lambat, transkrip lengkap |
-| 3–6 | BBC English at Work — https://www.bbc.co.uk/learningenglish/english/features/english-at-work | sedang, konteks kantor |
-| 5–8 | Tutorial Tableau / Power BI di YouTube (nyalakan transkrip) | sedang, sekaligus belajar kerja |
-| 9–12 | Rekaman Tableau Conference / Microsoft Fabric talk | penuh, native asli |
+| 1–4 | **Kursus 1: Data Analytics Foundations** (Modul 1–4), caption Inggris | pelan, transkrip lengkap |
+| 5–8 | **Kursus 2 & 3** (Applied Statistics, Python) — video konsep + baca lecture notes | sedang, sekaligus belajar kerja |
+| 9–10 | **Kursus 4 & 5** (SQL/preprocessing, Data Storytelling + Tableau) | sedang–penuh |
+| 10–12 | Bahan native: rekaman Tableau Conference / Microsoft Fabric talk (nyalakan transkrip) | penuh, native asli |
+
+Prinsip level: bahan naik seiring telinga. Video kursus (Beginner, tempo pelan, ada caption) mendahului talk native. Jangan lompat ke bahan native sebelum minggu 10 — di listening 34 itu nol hasil (lihat bagian 3b).
 
 Deck 4000 bonus: 11072 audio. Mode audio-dulu: dengar `Sound_Example` sebelum teks — latihan telinga gratis.
 
@@ -838,7 +879,7 @@ Masalahmu bukan kosakata — reading 47 membuktikan itu. Masalahnya mulut belum 
 
 ### Shadowing (di slot B2, motor pulang)
 
-1. Ambil audio 1–2 menit yang punya transkrip.
+1. Ambil audio 1–2 menit yang punya transkrip — **potongan video kursus yang sudah kamu transkrip minggu ini** (Kursus 1 di bulan 1, naik ke Storytelling/Tableau di bulan 3). Bahan sama, dipakai dua kali.
 2. Dengar sekali tanpa transkrip.
 3. Dengar lagi sambil baca transkrip.
 4. Putar dan **bicara bersamaan** dengan speaker. Tiru irama dan intonasi, bukan hanya kata. Ulang 5 kali.
@@ -913,7 +954,7 @@ Tujuan bulan ini: **tidak bolos sehari pun.** Bukan volume. Kalau bulan 1 utuh, 
 
 Harian:
 - Slot A: Anki deck 4000, 10 kartu baru + review
-- Slot C: transkripsi 30 detik, 6 Minute English. **Pakai 1 episode yang sama sepanjang minggu.**
+- Slot C: transkripsi 30 detik, **Kursus 1 Modul 1 (Data Analytics Foundations)**. **Pakai 1 video yang sama sepanjang minggu.**
 - Slot B1 (motor berangkat): loop potongan yang ditranskrip hari sebelumnya. Hari pertama belum ada bahan — senyap, atau dengar episode utuh sekali.
 - Slot B2 (motor pulang): senyap minggu ini. Belum mulai bersuara.
 - Slot D: skip minggu ini
@@ -922,6 +963,7 @@ Sekali minggu ini:
 - Baca bagian 3b (keselamatan slot motor) sebelum memakai audio di jalan.
 - Baca bagian 6 (connected speech) sampai paham. Hafal tabel weak form.
 - Isi `BI Jargon` 25 kartu dari bagian 7 (Pipeline & modeling). Sekali kerja 20 menit di laptop.
+- **Tonton Kursus 1 Modul 1 sampai selesai** (video pendek, tempo pelan) + kerjakan graded quiz-nya dalam Inggris. Ini bahan transkripsi minggu depan sekaligus modul kerja pertama.
 
 Target: 7/7 hari Anki. Transkripsi 5/7. Beban ~20 menit/hari.
 
@@ -933,7 +975,7 @@ Jangan tambah apa pun. Godaan terbesar minggu 1 adalah semangat berlebihan lalu 
 
 Harian:
 - Slot A: deck 4000 (10 baru) + `BI Jargon` (5 baru)
-- Slot C: transkripsi 45 detik, episode baru
+- Slot C: transkripsi 45 detik, video baru dari **Kursus 1 Modul 2 (spreadsheet & time series)**
 - Slot B1: loop potongan kemarin (bagian 3b, pola berangkat)
 - Slot B2: **mulai monolog bersuara di helm** — ceritakan kerjaan hari ini, tanpa rekaman
 - Slot D: mulai — tulis **3 kalimat** tentang kerjaan hari ini, pakai frasa dari bagian 8
@@ -950,13 +992,13 @@ Target: 7/7 Anki, 6/7 transkripsi, 5/7 nulis.
 
 Harian:
 - Slot A: sama
-- Slot C: transkripsi 60 detik + **3 kata/frasa dari dokumen kantor asli** (nota dinas, spek vendor, kontrak, email) → `Work Mining`
+- Slot C: transkripsi 60 detik (**Kursus 1 Modul 3, visualisasi**) + **3 kata/frasa dari dokumen kantor asli atau lecture notes kursus** (nota dinas, spek vendor, kontrak, email, lab) → `Work Mining`
 - Slot B1/B2: sama seperti minggu 2
 - Slot D: tulis 5 kalimat
 
 Sekali minggu ini:
 - Isi `BI Jargon` dengan istilah domain (rumah sakit / pabrik / anggaran, pilih yang paling sering kamu pakai)
-- Baca 1 halaman dokumentasi Tableau atau Power BI, pakai metode 3-lapis (bagian 11)
+- Baca lecture notes / 1 lab Kursus 1 (atau dokumentasi Tableau/Power BI), pakai metode 3-lapis (bagian 11)
 
 Target: `Work Mining` terisi 12+ kartu akhir minggu.
 
@@ -970,6 +1012,7 @@ Sekali minggu ini:
 - **Cek diri:** hitung hari bolos Anki bulan ini. 0–2 hari = lanjut normal. 3–7 hari = turunkan kartu baru ke 7/hari, jangan tambah target bulan 2. Lebih dari 7 hari = slot waktumu salah, pindahkan (baca bagian 13).
 - Cek komposisi kesalahan transkripsi. Kalau jenis (b) "tahu katanya, tidak dengar" mulai turun → program jalan.
 - Isi `Report Phrases` 20 frasa dari bagian 8 + Academic Phrasebank.
+- **Selesaikan Kursus 1 (Foundations)** — capstone + semua graded quiz. Kursus kerja pertama beres, sekaligus 4 minggu bahan transkripsi terpakai.
 
 **Milestone bulan 1:** ~40 hari streak Anki, `BI Jargon` ~75 kartu, `Work Mining` ~25 kartu, transkripsi 60 detik terasa mungkin.
 
@@ -991,7 +1034,7 @@ Harian:
 
 Sekali minggu ini:
 - Dengar ulang rekaman hari 1 dan hari 7. Catat 5 kesalahan → `My Mistakes`.
-- Naik bahan transkripsi ke BBC English at Work.
+- Naik bahan transkripsi ke **Kursus 2 (Applied Statistics) / Kursus 3 (Python)** — video konsep. Mulai baca lecture notes-nya sebagai bahan reading.
 
 Minggu ini akan terasa memalukan saat mendengar rekaman sendiri. Itu normal dan justru tanda kamu mulai bisa mendeteksi kesalahan sendiri — kemampuan yang tidak kamu punya di minggu 1. Monolog di helm 5 minggu terakhir membuat rekaman ini jauh lebih baik daripada kalau baru mulai bicara hari ini.
 
@@ -1004,6 +1047,7 @@ Harian: sama seperti minggu 5.
 Sekali minggu ini:
 - **Tulis ulang satu laporan dashboard lamamu dalam Inggris.** Satu halaman. Pakai rumus insight bagian 8. Ini deliverable pertama yang nyata.
 - Aturan: tulis dulu sampai selesai tanpa alat bantu. **Baru** setelah selesai, periksa dengan Grammarly/AI. Semua koreksi → `My Mistakes`. Kalau pakai alat dari awal, kamu tidak belajar apa pun.
+- Kerjakan graded lab statistik Kursus 2 dalam Inggris. Istilah angka yang muncul (`confidence interval`, `correlation`, `skewness`) → `BI Jargon`.
 
 ---
 
@@ -1015,6 +1059,7 @@ Harian:
 Sekali minggu ini:
 - Rekam **demo dashboard 5 menit** dalam Inggris, seolah presentasi ke klien. Pakai dashboard "BPPK in Figures" yang sudah ada.
 - Dengar ulang. Catat tempat kamu macet. Kata yang macet → deck.
+- Tonton modul dashboard/story **Kursus 5 (Data Storytelling, Tableau)** sebagai contoh cara native mendemokan dashboard — tiru frasa dan alurnya untuk demo-mu.
 
 ---
 
@@ -1024,6 +1069,7 @@ Harian: sama.
 
 Sekali minggu ini:
 - **Perbaiki CV** sesuai bagian 12. Ini pekerjaan 2 jam, kerjakan sekali dan selesai.
+- Tonton **Kursus 5 Modul 4 "The Job Search" → Resumes & portfolios** lebih dulu; pakai panduannya untuk merapikan CV, digabung dengan bagian 12.
 - Tulis laporan Inggris kedua (1 halaman), topik beda.
 - Cek diri: monolog 3 menit sudah bisa tanpa mikir lama? Kalau belum, jangan lanjut ke minggu 9 dulu — ulangi minggu 7 satu minggu lagi. Lebih baik tertinggal 1 minggu daripada bicara dengan orang lain sebelum siap dan kehilangan nyali.
 
@@ -1050,7 +1096,7 @@ Sesi pertama akan berat. Itu bukan tanda kamu belum siap — memang begitu rasan
 **Minggu 10 (10–16 Nov) — Bahan native**
 
 Harian:
-- Slot C: naik ke **Tableau Conference / Microsoft Fabric talk**. Ini kecepatan native asli, akan terasa jauh lebih sulit — sesuai rencana.
+- Slot C: **selesaikan Kursus 4–5** (SQL/preprocessing, Data Storytelling) sebagai bahan, lalu naik ke **Tableau Conference / Microsoft Fabric talk**. Talk native kecepatan penuh akan terasa jauh lebih sulit — sesuai rencana, dan telingamu sudah 9 minggu terlatih di video kursus.
 - Slot B1: loop potongan talk yang sudah ditranskrip. Di kecepatan native, pengulangan di motor makin penting.
 
 Sekali minggu ini:
@@ -1065,6 +1111,7 @@ Harian: sama.
 
 Sekali minggu ini:
 - Kelas online 2x, **minta tutor melakukan mock interview** untuk posisi BI Analyst
+- Tonton **Kursus 5 "The Job Search" → Interviews & Networking**; pakai tips-nya untuk menyiapkan mock interview.
 - Siapkan jawaban 5 pertanyaan wajib (bagian 12), rekam, ulang sampai lancar
 - Siapkan **portfolio 1 halaman** dalam Inggris: 3 proyek, masing-masing 3 kalimat (masalah → yang kamu bangun → hasil dalam angka)
 
@@ -1134,12 +1181,12 @@ Artinya tidak bisa ditebak dari kata dasar, jadi harus dihafal:
 
 | Sumber | Untuk apa |
 |---|---|
+| **Lecture notes & graded lab kursus DeepLearning.AI** | Bahan reading utama. Inggris teknis standar + langsung menambah skill kerja. Baca dalam Inggris, kerjakan lab tanpa terjemahan. |
 | **Dokumen kantormu sendiri** | Bahan utama. Paling relevan, gratis. |
 | Microsoft Learn (Power BI) & Tableau Help | Inggris standar industri + kamu memang perlu isinya |
 | *Storytelling with Data* — Cole Nussbaumer Knaflic | Inggris sederhana, bab pendek, isinya persis pekerjaanmu. Buku pertama yang saya sarankan. |
 | World Bank Indonesia Economic Quarterly | Istilah anggaran pemerintah Indonesia dalam Inggris resmi. Jembatan sempurna dari dunia Kemenkeu. |
 | Academic Phrasebank — https://www.phrasebank.manchester.ac.uk/ | Isi deck `Report Phrases` dari sini |
-| BBC English at Work — https://www.bbc.co.uk/learningenglish/english/features/english-at-work | Bahan shadowing, dialog kantor + transkrip |
 | YouGlish — https://youglish.com/ | Cek pengucapan istilah teknis di video nyata |
 
 ---
@@ -1233,7 +1280,7 @@ Bagian paling penting di file itu adalah **log kesalahan transkripsi**. Loop han
 | Malu dengar rekaman sendiri | Normal dan justru tanda maju | Kamu baru bisa mendeteksi kesalahan sendiri — itu kemampuan baru. Simpan rekaman minggu 5, bandingkan di minggu 12. |
 | Kartu `My Mistakes` menumpuk cepat | Semua kesalahan dikartukan, tanpa penyaringan | Batas 3 kartu/hari (bagian 5). Yang sudah klik setelah 10× putar tidak perlu kartu. |
 | Kartu (b) terasa terlalu mudah saat review | Kartunya berupa teks, bukan audio | Kartu (b) harus audio di depan. Kartu teks menguji hal yang sudah kamu bisa. Perbaiki atau hapus. |
-| Bingung kata dari BBC masuk deck mana | Kata umum hampir selalu sudah ada di deck 4000 | Browse → cari kata → Set Due Date `0`. Jangan bikin kartu duplikat. |
+| Bingung kata dari video kursus masuk deck mana | Kata umum hampir selalu sudah ada di deck 4000 | Browse → cari kata → Set Due Date `0`. Jangan bikin kartu duplikat. Istilah data → `BI Jargon`. |
 | Kelas online terasa buang uang | Tutor mengajak ngobrol umum | Kirim agenda sebelum sesi: "Today I want to practise a dashboard demo and stakeholder questions." Tutor akan ikut. |
 | Tidak ada waktu sama sekali minggu ini | Hidup normal | Jalankan versi 5 menit (bagian 2). Streak lebih penting dari volume. |
 | Merasa program ini terlalu banyak | Mungkin benar | Buang urutan ini: `Report Phrases` → deck 4000 → shadowing. **Jangan** pernah buang transkripsi dan Anki review. |
@@ -1271,6 +1318,8 @@ Buka bagian ini 30 November, setelah retest.
 4. **B2** Motor pulang ~30 m — shadowing & monolog bersuara di dalam helm
 5. **D** Malam 10 m — rekam monolog 3 menit + tulis 5 kalimat
 
+**Bahan inti (dua kali guna):** kursus **Data Analytics — DeepLearning.AI** (bagian 0). Bulan 1 Kursus 1 (Foundations), bulan 2 Kursus 2–3 (Statistics, Python), bulan 3 Kursus 4–5 (SQL, Storytelling/Tableau + The Job Search) lalu bahan native. Transkripsi videonya, baca lecture notes-nya, kerjakan lab-nya dalam Inggris.
+
 **Aturan slot motor:** hanya materi yang sudah ditranskrip. Audio baru di listening 34 sambil berkendara = nol hasil. Speaker helm atau bone conduction, bukan in-ear dua telinga. Lalu lintas padat atau hujan: matikan audio.
 
 **Empat deck buatan sendiri:** `BI Jargon` · `Work Mining` · `Report Phrases` · `My Mistakes`
@@ -1279,7 +1328,7 @@ Buka bagian ini 30 November, setelah retest.
 
 **Satu aturan yang tidak boleh dilanggar:** buka Anki tiap hari, walau 5 menit.
 
-**Sisa Minggu 0:** pasang Loop Habit Tracker (2 habit), pasang Audipo, download 3 episode 6 Minute English + transkrip ke HP, siapkan perangkat audio motor.
+**Sisa Minggu 0:** pasang Loop Habit Tracker (2 habit), pasang Audipo, siapkan 2–3 video Kursus 1 Modul 1 (DeepLearning.AI) + transkrip caption ke HP, siapkan perangkat audio motor.
 
 Senin 8 September, slot A: buka Anki sebelum mandi. Mulai dari situ.
 
